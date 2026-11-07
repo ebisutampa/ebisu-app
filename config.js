@@ -1,6 +1,6 @@
-// Supabase project settings. The anon key is a public key by design (data is protected by
-// row-level security: only the signed-in store account can read or write).
+// Supabase project settings. The publishable key is public by design: data is protected by
+// row-level security (only the signed-in store account can read or write), and public sign-ups are off.
 window.EBISU_CONFIG = {
-  supabaseUrl: '',
-  supabaseAnonKey: ''
+  supabaseUrl: 'https://azvmngrjebreqfptbbin.supabase.co',
+  supabaseAnonKey: 'sb_publishable_WPrueAHHrAsGfo4SQLWbqg_BSeJqcMj'
 };
